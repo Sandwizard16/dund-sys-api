@@ -115,7 +115,7 @@ export default function CustomPaginationActionsTable() {
 
   useEffect(() => {
     const fetchMessages = async () => {
-      const res = await axios.get("/noticeBoard");
+      const res = await axios.get("/noticeboard");
       const sorted = _.orderBy(res.data, ["time"], ["desc"]);
       setMessages(sorted);
     };
