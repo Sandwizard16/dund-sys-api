@@ -1,4 +1,4 @@
 {
-  "jwtPrivateKey": "dund_jwtPrivateKey",
-  "mongooseKey": "mongodb+srv://zuhu162:kikorbo1621@dundermiffdb.kyajd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  "jwtPrivateKey": "",
+  "mongooseKey": ""
 }
